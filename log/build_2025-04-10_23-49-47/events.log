@@ -1,0 +1,151 @@
+[0.000000] (-) TimerEvent: {}
+[0.000209] (track_car) JobQueued: {'identifier': 'track_car', 'dependencies': OrderedDict()}
+[0.000581] (track_car) JobStarted: {'identifier': 'track_car'}
+[0.011853] (track_car) JobProgress: {'identifier': 'track_car', 'progress': 'cmake'}
+[0.012317] (track_car) JobProgress: {'identifier': 'track_car', 'progress': 'build'}
+[0.013180] (track_car) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/track_car', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/build/track_car', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('GIT_ASKPASS', '/root/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-b428dd4f-d25b-4009-b633-f7ff511e63b1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('DEBUGINFOD_URLS', ''), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'LAPTOP-LTMO5I6H'), ('WSL_INTEROP', '/run/WSL/17435_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Program Files/MATLAB/R2024b/runtime/win64:/mnt/d/Program Files/MATLAB/R2024b/bin:/mnt/d/Program Files/PowerShell/7/:/mnt/d/Program Files/MATLAB/R2022b/runtime/win64:/mnt/d/Program Files/MATLAB/R2022b/bin:/mnt/d/mingw63/bin:/mnt/c/Users/25104/AppData/Local/Microsoft/WindowsApps:/mnt/d/Users/25104/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-bcdd5166ca.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/track_car:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_ws/build/track_car'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/track_car:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.044507] (track_car) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099473] (-) TimerEvent: {}
+[0.199926] (-) TimerEvent: {}
+[0.211956] (track_car) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.300062] (-) TimerEvent: {}
+[0.365653] (track_car) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.368935] (track_car) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.377639] (track_car) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.390406] (track_car) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.400213] (-) TimerEvent: {}
+[0.405782] (track_car) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.454668] (track_car) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.456126] (track_car) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500394] (-) TimerEvent: {}
+[0.600797] (-) TimerEvent: {}
+[0.701208] (-) TimerEvent: {}
+[0.801569] (-) TimerEvent: {}
+[0.902009] (-) TimerEvent: {}
+[1.002363] (-) TimerEvent: {}
+[1.102721] (-) TimerEvent: {}
+[1.203143] (-) TimerEvent: {}
+[1.303547] (-) TimerEvent: {}
+[1.403924] (-) TimerEvent: {}
+[1.504261] (-) TimerEvent: {}
+[1.604664] (-) TimerEvent: {}
+[1.705198] (-) TimerEvent: {}
+[1.805572] (-) TimerEvent: {}
+[1.905976] (-) TimerEvent: {}
+[2.006447] (-) TimerEvent: {}
+[2.106823] (-) TimerEvent: {}
+[2.207209] (-) TimerEvent: {}
+[2.307778] (-) TimerEvent: {}
+[2.838136] (-) TimerEvent: {}
+[2.938512] (-) TimerEvent: {}
+[3.038872] (-) TimerEvent: {}
+[3.139405] (-) TimerEvent: {}
+[3.239820] (-) TimerEvent: {}
+[3.340213] (-) TimerEvent: {}
+[3.440566] (-) TimerEvent: {}
+[3.540975] (-) TimerEvent: {}
+[3.641525] (-) TimerEvent: {}
+[3.741958] (-) TimerEvent: {}
+[3.842465] (-) TimerEvent: {}
+[3.942904] (-) TimerEvent: {}
+[4.043342] (-) TimerEvent: {}
+[4.143762] (-) TimerEvent: {}
+[4.244211] (-) TimerEvent: {}
+[4.344709] (-) TimerEvent: {}
+[4.399711] (track_car) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.444811] (-) TimerEvent: {}
+[4.467380] (track_car) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[4.486233] (track_car) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.507133] (track_car) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[4.526336] (track_car) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.545001] (-) TimerEvent: {}
+[4.611565] (track_car) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.612130] (track_car) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.612380] (track_car) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.612985] (track_car) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.614124] (track_car) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.614584] (track_car) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.614883] (track_car) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.615814] (track_car) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.645189] (-) TimerEvent: {}
+[4.745736] (-) TimerEvent: {}
+[4.846127] (-) TimerEvent: {}
+[4.946507] (-) TimerEvent: {}
+[4.965056] (track_car) StdoutLine: {'line': b'-- Generating done\n'}
+[4.971862] (track_car) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/track_car\n'}
+[5.011344] (track_car) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target track_car_node\x1b[0m\n'}
+[5.013404] (track_car) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/control_node.dir/src/control_node.cpp.o\x1b[0m\n'}
+[5.046666] (-) TimerEvent: {}
+[5.068694] (track_car) StdoutLine: {'line': b'[ 75%] Built target track_car_node\n'}
+[5.146769] (-) TimerEvent: {}
+[5.247126] (-) TimerEvent: {}
+[5.347636] (-) TimerEvent: {}
+[5.448092] (-) TimerEvent: {}
+[5.548506] (-) TimerEvent: {}
+[5.648882] (-) TimerEvent: {}
+[5.749238] (-) TimerEvent: {}
+[5.849677] (-) TimerEvent: {}
+[5.950054] (-) TimerEvent: {}
+[6.050484] (-) TimerEvent: {}
+[6.151208] (-) TimerEvent: {}
+[6.252161] (-) TimerEvent: {}
+[6.352720] (-) TimerEvent: {}
+[6.453290] (-) TimerEvent: {}
+[6.554028] (-) TimerEvent: {}
+[6.655152] (-) TimerEvent: {}
+[6.755526] (-) TimerEvent: {}
+[6.856111] (-) TimerEvent: {}
+[6.956845] (-) TimerEvent: {}
+[7.057239] (-) TimerEvent: {}
+[7.157652] (-) TimerEvent: {}
+[7.258013] (-) TimerEvent: {}
+[7.358430] (-) TimerEvent: {}
+[7.458924] (-) TimerEvent: {}
+[7.559375] (-) TimerEvent: {}
+[7.659709] (-) TimerEvent: {}
+[7.760123] (-) TimerEvent: {}
+[7.860554] (-) TimerEvent: {}
+[7.961021] (-) TimerEvent: {}
+[8.061376] (-) TimerEvent: {}
+[8.161744] (-) TimerEvent: {}
+[8.262200] (-) TimerEvent: {}
+[8.362659] (-) TimerEvent: {}
+[8.463104] (-) TimerEvent: {}
+[8.563542] (-) TimerEvent: {}
+[8.664036] (-) TimerEvent: {}
+[8.764501] (-) TimerEvent: {}
+[8.865030] (-) TimerEvent: {}
+[8.965476] (-) TimerEvent: {}
+[9.066026] (-) TimerEvent: {}
+[9.166435] (-) TimerEvent: {}
+[9.266886] (-) TimerEvent: {}
+[9.367362] (-) TimerEvent: {}
+[9.467795] (-) TimerEvent: {}
+[9.568201] (-) TimerEvent: {}
+[9.668654] (-) TimerEvent: {}
+[9.769197] (-) TimerEvent: {}
+[9.869639] (-) TimerEvent: {}
+[9.935912] (track_car) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/track_car/src/control_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KGazeboControlNode::GazeboControlNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.936265] (track_car) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/track_car/src/control_node.cpp:11:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""ms\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.936464] (track_car) StderrLine: {'line': b'   11 |             \x1b[01;31m\x1b[K500ms\x1b[m\x1b[K, std::bind(&GazeboControlNode::send_velocity, this));\n'}
+[9.936537] (track_car) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.969751] (-) TimerEvent: {}
+[10.070163] (-) TimerEvent: {}
+[10.170675] (-) TimerEvent: {}
+[10.271615] (-) TimerEvent: {}
+[10.373834] (-) TimerEvent: {}
+[10.474407] (-) TimerEvent: {}
+[10.574827] (-) TimerEvent: {}
+[10.675295] (-) TimerEvent: {}
+[10.775789] (-) TimerEvent: {}
+[10.876270] (-) TimerEvent: {}
+[10.976624] (-) TimerEvent: {}
+[11.077039] (-) TimerEvent: {}
+[11.177501] (-) TimerEvent: {}
+[11.277905] (-) TimerEvent: {}
+[11.315482] (track_car) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/control_node.dir/build.make:76: CMakeFiles/control_node.dir/src/control_node.cpp.o] Error 1\n'}
+[11.318072] (track_car) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/control_node.dir/all] Error 2\n'}
+[11.319526] (track_car) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.321471] (track_car) CommandEnded: {'returncode': 2}
+[11.339167] (track_car) JobEnded: {'identifier': 'track_car', 'rc': 2}
+[11.352309] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+[01m[K/root/ros2_ws/src/track_car/src/MemoryTrajectoryGenerate.cpp:[m[K In member function ‘[01m[Kvoid MemoryTrajectoryGenerate::process_imu()[m[K’:
+[01m[K/root/ros2_ws/src/track_car/src/MemoryTrajectoryGenerate.cpp:92:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kacceleration_y_car[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   92 |     double [01;35m[Kacceleration_y_car[m[K = -acceleration_x_world * sin(yaw) + acceleration_y_world * cos(yaw); // 车体y方向
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~[m[K

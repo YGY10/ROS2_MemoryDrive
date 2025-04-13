@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target memory_drive_node[0m
+[ 25%] Built target control_node
+[ 50%] Built target track_car_node
+[ 62%] [32mBuilding CXX object CMakeFiles/memory_drive_node.dir/src/AutoDriveControl.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable memory_drive_node[0m

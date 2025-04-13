@@ -1,0 +1,222 @@
+[0.000000] (-) TimerEvent: {}
+[0.000199] (track_car) JobQueued: {'identifier': 'track_car', 'dependencies': OrderedDict()}
+[0.000533] (track_car) JobStarted: {'identifier': 'track_car'}
+[0.015168] (track_car) JobProgress: {'identifier': 'track_car', 'progress': 'cmake'}
+[0.016623] (track_car) JobProgress: {'identifier': 'track_car', 'progress': 'build'}
+[0.016713] (track_car) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/track_car', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/build/track_car', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('GIT_ASKPASS', '/root/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.99.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-a561c4ae-88f6-4ce6-9085-eee78f5f5763.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/root/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('DEBUGINFOD_URLS', ''), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'LAPTOP-LTMO5I6H'), ('WSL_INTEROP', '/run/WSL/645_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Program Files/MATLAB/R2024b/runtime/win64:/mnt/d/Program Files/MATLAB/R2024b/bin:/mnt/d/Program Files/PowerShell/7/:/mnt/d/Program Files/MATLAB/R2022b/runtime/win64:/mnt/d/Program Files/MATLAB/R2022b/bin:/mnt/d/mingw63/bin:/mnt/c/Users/25104/AppData/Local/Microsoft/WindowsApps:/mnt/d/Users/25104/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/root/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/root/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-753f4aa56f9a8b31.txt'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-bcdd5166ca.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/track_car:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_ws/build/track_car'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/track_car:/opt/ros/humble'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.040370] (track_car) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098827] (-) TimerEvent: {}
+[0.145312] (track_car) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.152307] (track_car) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199056] (-) TimerEvent: {}
+[0.252589] (track_car) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.255027] (track_car) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.260525] (track_car) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.269654] (track_car) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.281597] (track_car) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299224] (-) TimerEvent: {}
+[0.315662] (track_car) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.316930] (track_car) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399392] (-) TimerEvent: {}
+[0.499899] (-) TimerEvent: {}
+[0.600233] (-) TimerEvent: {}
+[0.700551] (-) TimerEvent: {}
+[0.800874] (-) TimerEvent: {}
+[0.901200] (-) TimerEvent: {}
+[1.001521] (-) TimerEvent: {}
+[1.101837] (-) TimerEvent: {}
+[1.202195] (-) TimerEvent: {}
+[1.302537] (-) TimerEvent: {}
+[1.402954] (-) TimerEvent: {}
+[1.503294] (-) TimerEvent: {}
+[1.603688] (-) TimerEvent: {}
+[1.704073] (-) TimerEvent: {}
+[1.804445] (-) TimerEvent: {}
+[1.904857] (-) TimerEvent: {}
+[2.005227] (-) TimerEvent: {}
+[2.105555] (-) TimerEvent: {}
+[2.205912] (-) TimerEvent: {}
+[2.306249] (-) TimerEvent: {}
+[2.406580] (-) TimerEvent: {}
+[2.506915] (-) TimerEvent: {}
+[2.607274] (-) TimerEvent: {}
+[2.707749] (-) TimerEvent: {}
+[2.808119] (-) TimerEvent: {}
+[2.908519] (-) TimerEvent: {}
+[3.008896] (-) TimerEvent: {}
+[3.109254] (-) TimerEvent: {}
+[3.209623] (-) TimerEvent: {}
+[3.234388] (track_car) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.294211] (track_car) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[3.305751] (track_car) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.309761] (-) TimerEvent: {}
+[3.322355] (track_car) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[3.338892] (track_car) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[3.403552] (track_car) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.409930] (-) TimerEvent: {}
+[3.424671] (track_car) StdoutLine: {'line': b'-- Generating done\n'}
+[3.432000] (track_car) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/track_car\n'}
+[3.457897] (track_car) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target control_node\x1b[0m\n'}
+[3.460109] (track_car) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target track_car_node\x1b[0m\n'}
+[3.460871] (track_car) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target alg_main\x1b[0m\n'}
+[3.462439] (track_car) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target memory_drive_node\x1b[0m\n'}
+[3.485749] (track_car) StdoutLine: {'line': b'[ 15%] Built target track_car_node\n'}
+[3.488366] (track_car) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/alg_main.dir/src/MemoryTrajectoryGenerate.cpp.o\x1b[0m\n'}
+[3.488670] (track_car) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/alg_main.dir/src/MemoryDrive.cpp.o\x1b[0m\n'}
+[3.488846] (track_car) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/alg_main.dir/src/AutoDriveControl.cpp.o\x1b[0m\n'}
+[3.495090] (track_car) StdoutLine: {'line': b'[ 53%] Built target control_node\n'}
+[3.498871] (track_car) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX executable memory_drive_node\x1b[0m\n'}
+[3.510181] (-) TimerEvent: {}
+[3.610680] (-) TimerEvent: {}
+[3.711122] (-) TimerEvent: {}
+[3.811516] (-) TimerEvent: {}
+[3.911954] (-) TimerEvent: {}
+[4.012292] (-) TimerEvent: {}
+[4.113147] (-) TimerEvent: {}
+[4.213584] (-) TimerEvent: {}
+[4.314003] (-) TimerEvent: {}
+[4.368418] (track_car) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[4.368745] (track_car) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[4.414161] (-) TimerEvent: {}
+[4.476439] (track_car) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[4.478118] (track_car) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/memory_drive_node.dir/build.make:208: memory_drive_node] Error 1\n'}
+[4.479341] (track_car) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/memory_drive_node.dir/all] Error 2\n'}
+[4.479519] (track_car) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[4.516330] (-) TimerEvent: {}
+[4.616772] (-) TimerEvent: {}
+[4.717103] (-) TimerEvent: {}
+[4.817437] (-) TimerEvent: {}
+[4.917848] (-) TimerEvent: {}
+[5.018226] (-) TimerEvent: {}
+[5.118689] (-) TimerEvent: {}
+[5.219179] (-) TimerEvent: {}
+[5.319616] (-) TimerEvent: {}
+[5.420031] (-) TimerEvent: {}
+[5.520415] (-) TimerEvent: {}
+[5.620811] (-) TimerEvent: {}
+[5.721246] (-) TimerEvent: {}
+[5.821610] (-) TimerEvent: {}
+[5.922030] (-) TimerEvent: {}
+[6.022601] (-) TimerEvent: {}
+[6.123094] (-) TimerEvent: {}
+[6.223509] (-) TimerEvent: {}
+[6.323939] (-) TimerEvent: {}
+[6.424380] (-) TimerEvent: {}
+[6.524874] (-) TimerEvent: {}
+[6.625273] (-) TimerEvent: {}
+[6.725667] (-) TimerEvent: {}
+[6.826131] (-) TimerEvent: {}
+[6.867106] (track_car) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AutoDriveControl::update(std::vector<sensor_msgs::msg::NavSatFix_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.867353] (track_car) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:20:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktrajectory\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.867478] (track_car) StderrLine: {'line': b'   20 | void AutoDriveControl::update(\x1b[01;35m\x1b[Kstd::vector<sensor_msgs::msg::NavSatFix> trajectory\x1b[m\x1b[K)\n'}
+[6.867571] (track_car) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.926296] (-) TimerEvent: {}
+[7.026700] (-) TimerEvent: {}
+[7.127108] (-) TimerEvent: {}
+[7.227518] (-) TimerEvent: {}
+[7.328004] (-) TimerEvent: {}
+[7.428404] (-) TimerEvent: {}
+[7.528877] (-) TimerEvent: {}
+[7.629327] (-) TimerEvent: {}
+[7.729770] (-) TimerEvent: {}
+[7.830178] (-) TimerEvent: {}
+[7.930609] (-) TimerEvent: {}
+[8.030980] (-) TimerEvent: {}
+[8.131349] (-) TimerEvent: {}
+[8.231780] (-) TimerEvent: {}
+[8.332173] (-) TimerEvent: {}
+[8.432561] (-) TimerEvent: {}
+[8.532881] (-) TimerEvent: {}
+[8.633249] (-) TimerEvent: {}
+[8.734118] (-) TimerEvent: {}
+[8.834490] (-) TimerEvent: {}
+[8.934958] (-) TimerEvent: {}
+[9.035308] (-) TimerEvent: {}
+[9.135672] (-) TimerEvent: {}
+[9.236038] (-) TimerEvent: {}
+[9.336403] (-) TimerEvent: {}
+[9.436759] (-) TimerEvent: {}
+[9.537140] (-) TimerEvent: {}
+[9.637496] (-) TimerEvent: {}
+[9.737949] (-) TimerEvent: {}
+[9.838305] (-) TimerEvent: {}
+[9.938677] (-) TimerEvent: {}
+[10.039070] (-) TimerEvent: {}
+[10.139440] (-) TimerEvent: {}
+[10.239765] (-) TimerEvent: {}
+[10.340171] (-) TimerEvent: {}
+[10.440520] (-) TimerEvent: {}
+[10.540909] (-) TimerEvent: {}
+[10.641277] (-) TimerEvent: {}
+[10.741664] (-) TimerEvent: {}
+[10.842062] (-) TimerEvent: {}
+[10.942466] (-) TimerEvent: {}
+[11.042896] (-) TimerEvent: {}
+[11.143289] (-) TimerEvent: {}
+[11.243649] (-) TimerEvent: {}
+[11.343994] (-) TimerEvent: {}
+[11.444337] (-) TimerEvent: {}
+[11.544695] (-) TimerEvent: {}
+[11.645049] (-) TimerEvent: {}
+[11.745400] (-) TimerEvent: {}
+[11.845753] (-) TimerEvent: {}
+[11.946061] (-) TimerEvent: {}
+[12.046441] (-) TimerEvent: {}
+[12.146824] (-) TimerEvent: {}
+[12.247218] (-) TimerEvent: {}
+[12.347605] (-) TimerEvent: {}
+[12.447982] (-) TimerEvent: {}
+[12.548377] (-) TimerEvent: {}
+[12.648795] (-) TimerEvent: {}
+[12.749172] (-) TimerEvent: {}
+[12.849576] (-) TimerEvent: {}
+[12.949990] (-) TimerEvent: {}
+[13.050366] (-) TimerEvent: {}
+[13.150719] (-) TimerEvent: {}
+[13.251106] (-) TimerEvent: {}
+[13.351519] (-) TimerEvent: {}
+[13.451873] (-) TimerEvent: {}
+[13.552227] (-) TimerEvent: {}
+[13.652607] (-) TimerEvent: {}
+[13.753060] (-) TimerEvent: {}
+[13.853456] (-) TimerEvent: {}
+[13.953798] (-) TimerEvent: {}
+[14.054100] (-) TimerEvent: {}
+[14.154511] (-) TimerEvent: {}
+[14.254831] (-) TimerEvent: {}
+[14.355214] (-) TimerEvent: {}
+[14.455637] (-) TimerEvent: {}
+[14.555992] (-) TimerEvent: {}
+[14.656355] (-) TimerEvent: {}
+[14.756791] (-) TimerEvent: {}
+[14.857132] (-) TimerEvent: {}
+[14.957513] (-) TimerEvent: {}
+[15.057835] (-) TimerEvent: {}
+[15.158189] (-) TimerEvent: {}
+[15.258549] (-) TimerEvent: {}
+[15.358969] (-) TimerEvent: {}
+[15.459418] (-) TimerEvent: {}
+[15.559826] (-) TimerEvent: {}
+[15.660219] (-) TimerEvent: {}
+[15.760616] (-) TimerEvent: {}
+[15.861019] (-) TimerEvent: {}
+[15.958083] (track_car) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX executable alg_main\x1b[0m\n'}
+[15.961224] (-) TimerEvent: {}
+[16.061733] (-) TimerEvent: {}
+[16.162074] (-) TimerEvent: {}
+[16.262483] (-) TimerEvent: {}
+[16.362916] (-) TimerEvent: {}
+[16.463624] (-) TimerEvent: {}
+[16.563980] (-) TimerEvent: {}
+[16.664339] (-) TimerEvent: {}
+[16.764794] (-) TimerEvent: {}
+[16.865188] (-) TimerEvent: {}
+[16.965599] (-) TimerEvent: {}
+[17.065922] (-) TimerEvent: {}
+[17.166287] (-) TimerEvent: {}
+[17.265159] (track_car) StdoutLine: {'line': b'[ 76%] Built target alg_main\n'}
+[17.266185] (track_car) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.266337] (-) TimerEvent: {}
+[17.268996] (track_car) CommandEnded: {'returncode': 2}
+[17.283466] (track_car) JobEnded: {'identifier': 'track_car', 'rc': 2}
+[17.294742] (-) EventReactorShutdown: {}

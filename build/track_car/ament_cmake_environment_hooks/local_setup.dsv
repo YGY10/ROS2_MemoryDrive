@@ -1,0 +1,2 @@
+source;share/track_car/environment/ament_prefix_path.sh
+source;share/track_car/environment/path.sh

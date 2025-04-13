@@ -1,0 +1,55 @@
+[0.019s] Invoking command in '/root/ros2_ws/build/track_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/track_car -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/track_car
+[0.090s] -- The C compiler identification is GNU 11.4.0
+[0.303s] -- The CXX compiler identification is GNU 11.4.0
+[0.430s] -- Detecting C compiler ABI info
+[0.506s] -- Detecting C compiler ABI info - done
+[0.513s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.513s] -- Detecting C compile features
+[0.514s] -- Detecting C compile features - done
+[0.517s] -- Detecting CXX compiler ABI info
+[0.610s] -- Detecting CXX compiler ABI info - done
+[0.617s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.617s] -- Detecting CXX compile features
+[0.617s] -- Detecting CXX compile features - done
+[0.619s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.736s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.802s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.899s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.902s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.909s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.919s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.932s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.966s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.968s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.625s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.303s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.544s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.551s] -- Looking for pthread.h
+[3.634s] -- Looking for pthread.h - found
+[3.635s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.720s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.721s] -- Found Threads: TRUE  
+[3.764s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.776s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.791s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.805s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[3.866s] -- Configuring done
+[3.881s] -- Generating done
+[3.973s] -- Build files have been written to: /root/ros2_ws/build/track_car
+[3.987s] Invoked command in '/root/ros2_ws/build/track_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/track_car -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/track_car
+[3.990s] Invoking command in '/root/ros2_ws/build/track_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/track_car -- -j8 -l8
+[4.031s] [35m[1mConsolidate compiler generated dependencies of target alg_main[0m
+[4.055s] [35m[1mConsolidate compiler generated dependencies of target control_node[0m
+[4.062s] [35m[1mConsolidate compiler generated dependencies of target track_car_node[0m
+[4.087s] [ 22%] [32m[1mLinking CXX executable control_node[0m
+[4.087s] [ 22%] [32m[1mLinking CXX executable track_car_node[0m
+[4.091s] [ 33%] [32m[1mLinking CXX executable alg_main[0m
+[4.247s] /usr/bin/ld: cannot find -lGeographicLib: No such file or directory
+[4.379s] collect2: error: ld returned 1 exit status
+[4.380s] gmake[2]: *** [CMakeFiles/alg_main.dir/build.make:232: alg_main] Error 1
+[4.381s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/alg_main.dir/all] Error 2
+[4.381s] gmake[1]: *** Waiting for unfinished jobs....
+[4.508s] [ 44%] Built target control_node
+[5.066s] [ 55%] Built target track_car_node
+[5.066s] gmake: *** [Makefile:146: all] Error 2
+[5.069s] Invoked command in '/root/ros2_ws/build/track_car' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/track_car -- -j8 -l8

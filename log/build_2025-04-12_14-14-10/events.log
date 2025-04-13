@@ -1,0 +1,287 @@
+[0.000000] (-) TimerEvent: {}
+[0.001860] (track_car) JobQueued: {'identifier': 'track_car', 'dependencies': OrderedDict()}
+[0.002031] (track_car) JobStarted: {'identifier': 'track_car'}
+[0.026738] (track_car) JobProgress: {'identifier': 'track_car', 'progress': 'cmake'}
+[0.037599] (track_car) JobProgress: {'identifier': 'track_car', 'progress': 'build'}
+[0.038035] (track_car) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/track_car', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/build/track_car', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('GIT_ASKPASS', '/root/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.99.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-1f30b1cc-88be-43d7-9111-9d6b1bfd5968.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/root/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('DEBUGINFOD_URLS', ''), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'LAPTOP-LTMO5I6H'), ('WSL_INTEROP', '/run/WSL/645_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Program Files/MATLAB/R2024b/runtime/win64:/mnt/d/Program Files/MATLAB/R2024b/bin:/mnt/d/Program Files/PowerShell/7/:/mnt/d/Program Files/MATLAB/R2022b/runtime/win64:/mnt/d/Program Files/MATLAB/R2022b/bin:/mnt/d/mingw63/bin:/mnt/c/Users/25104/AppData/Local/Microsoft/WindowsApps:/mnt/d/Users/25104/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/root/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/root/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-753f4aa56f9a8b31.txt'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-bcdd5166ca.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_ws/build/track_car'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098066] (-) TimerEvent: {}
+[0.146104] (track_car) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target track_car_node\x1b[0m\n'}
+[0.181027] (track_car) StdoutLine: {'line': b'[ 50%] Built target control_node\n'}
+[0.188818] (track_car) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/track_car_node.dir/src/track_car_node.cpp.o\x1b[0m\n'}
+[0.198252] (-) TimerEvent: {}
+[0.298972] (-) TimerEvent: {}
+[0.399623] (-) TimerEvent: {}
+[0.500260] (-) TimerEvent: {}
+[0.600891] (-) TimerEvent: {}
+[0.701728] (-) TimerEvent: {}
+[0.802656] (-) TimerEvent: {}
+[0.903501] (-) TimerEvent: {}
+[1.004038] (-) TimerEvent: {}
+[1.104758] (-) TimerEvent: {}
+[1.205603] (-) TimerEvent: {}
+[1.306263] (-) TimerEvent: {}
+[1.406995] (-) TimerEvent: {}
+[1.507662] (-) TimerEvent: {}
+[1.608298] (-) TimerEvent: {}
+[1.708989] (-) TimerEvent: {}
+[1.809494] (-) TimerEvent: {}
+[1.910099] (-) TimerEvent: {}
+[2.010637] (-) TimerEvent: {}
+[2.111223] (-) TimerEvent: {}
+[2.211835] (-) TimerEvent: {}
+[2.312579] (-) TimerEvent: {}
+[2.413334] (-) TimerEvent: {}
+[2.514240] (-) TimerEvent: {}
+[2.614902] (-) TimerEvent: {}
+[2.715699] (-) TimerEvent: {}
+[2.816335] (-) TimerEvent: {}
+[2.917116] (-) TimerEvent: {}
+[3.017668] (-) TimerEvent: {}
+[3.118215] (-) TimerEvent: {}
+[3.218775] (-) TimerEvent: {}
+[3.319321] (-) TimerEvent: {}
+[3.420062] (-) TimerEvent: {}
+[3.520699] (-) TimerEvent: {}
+[3.621248] (-) TimerEvent: {}
+[3.721767] (-) TimerEvent: {}
+[3.822228] (-) TimerEvent: {}
+[3.922825] (-) TimerEvent: {}
+[4.023287] (-) TimerEvent: {}
+[4.123841] (-) TimerEvent: {}
+[4.224467] (-) TimerEvent: {}
+[4.325032] (-) TimerEvent: {}
+[4.425561] (-) TimerEvent: {}
+[4.526082] (-) TimerEvent: {}
+[4.626688] (-) TimerEvent: {}
+[4.727396] (-) TimerEvent: {}
+[4.828068] (-) TimerEvent: {}
+[4.928749] (-) TimerEvent: {}
+[5.029376] (-) TimerEvent: {}
+[5.129963] (-) TimerEvent: {}
+[5.230429] (-) TimerEvent: {}
+[5.331085] (-) TimerEvent: {}
+[5.431637] (-) TimerEvent: {}
+[5.532349] (-) TimerEvent: {}
+[5.632894] (-) TimerEvent: {}
+[5.733382] (-) TimerEvent: {}
+[5.834091] (-) TimerEvent: {}
+[5.934593] (-) TimerEvent: {}
+[6.035094] (-) TimerEvent: {}
+[6.135577] (-) TimerEvent: {}
+[6.236128] (-) TimerEvent: {}
+[6.336808] (-) TimerEvent: {}
+[6.437433] (-) TimerEvent: {}
+[6.538003] (-) TimerEvent: {}
+[6.638536] (-) TimerEvent: {}
+[6.739216] (-) TimerEvent: {}
+[6.839880] (-) TimerEvent: {}
+[6.940403] (-) TimerEvent: {}
+[7.040972] (-) TimerEvent: {}
+[7.141517] (-) TimerEvent: {}
+[7.242271] (-) TimerEvent: {}
+[7.342878] (-) TimerEvent: {}
+[7.443324] (-) TimerEvent: {}
+[7.543804] (-) TimerEvent: {}
+[7.644234] (-) TimerEvent: {}
+[7.744737] (-) TimerEvent: {}
+[7.845242] (-) TimerEvent: {}
+[7.945685] (-) TimerEvent: {}
+[8.046106] (-) TimerEvent: {}
+[8.146552] (-) TimerEvent: {}
+[8.247174] (-) TimerEvent: {}
+[8.347785] (-) TimerEvent: {}
+[8.448401] (-) TimerEvent: {}
+[8.549019] (-) TimerEvent: {}
+[8.649651] (-) TimerEvent: {}
+[8.750070] (-) TimerEvent: {}
+[8.850531] (-) TimerEvent: {}
+[8.951074] (-) TimerEvent: {}
+[9.051668] (-) TimerEvent: {}
+[9.152193] (-) TimerEvent: {}
+[9.252724] (-) TimerEvent: {}
+[9.353525] (-) TimerEvent: {}
+[9.454180] (-) TimerEvent: {}
+[9.554926] (-) TimerEvent: {}
+[9.655738] (-) TimerEvent: {}
+[9.756418] (-) TimerEvent: {}
+[9.857067] (-) TimerEvent: {}
+[9.957696] (-) TimerEvent: {}
+[10.058223] (-) TimerEvent: {}
+[10.158750] (-) TimerEvent: {}
+[10.259202] (-) TimerEvent: {}
+[10.359699] (-) TimerEvent: {}
+[10.460110] (-) TimerEvent: {}
+[10.560678] (-) TimerEvent: {}
+[10.661240] (-) TimerEvent: {}
+[10.761802] (-) TimerEvent: {}
+[10.862352] (-) TimerEvent: {}
+[10.962812] (-) TimerEvent: {}
+[11.063346] (-) TimerEvent: {}
+[11.163972] (-) TimerEvent: {}
+[11.264400] (-) TimerEvent: {}
+[11.364877] (-) TimerEvent: {}
+[11.465448] (-) TimerEvent: {}
+[11.565930] (-) TimerEvent: {}
+[11.666435] (-) TimerEvent: {}
+[11.767005] (-) TimerEvent: {}
+[11.867592] (-) TimerEvent: {}
+[11.971468] (-) TimerEvent: {}
+[12.072210] (-) TimerEvent: {}
+[12.172712] (-) TimerEvent: {}
+[12.273278] (-) TimerEvent: {}
+[12.373798] (-) TimerEvent: {}
+[12.474301] (-) TimerEvent: {}
+[12.574872] (-) TimerEvent: {}
+[12.675296] (-) TimerEvent: {}
+[12.775769] (-) TimerEvent: {}
+[12.876270] (-) TimerEvent: {}
+[12.976773] (-) TimerEvent: {}
+[13.077286] (-) TimerEvent: {}
+[13.177956] (-) TimerEvent: {}
+[13.278525] (-) TimerEvent: {}
+[13.378998] (-) TimerEvent: {}
+[13.479400] (-) TimerEvent: {}
+[13.579926] (-) TimerEvent: {}
+[13.680510] (-) TimerEvent: {}
+[13.781008] (-) TimerEvent: {}
+[13.881526] (-) TimerEvent: {}
+[13.982017] (-) TimerEvent: {}
+[14.082521] (-) TimerEvent: {}
+[14.183147] (-) TimerEvent: {}
+[14.283690] (-) TimerEvent: {}
+[14.384263] (-) TimerEvent: {}
+[14.484888] (-) TimerEvent: {}
+[14.585375] (-) TimerEvent: {}
+[14.685846] (-) TimerEvent: {}
+[14.786403] (-) TimerEvent: {}
+[14.886940] (-) TimerEvent: {}
+[14.987522] (-) TimerEvent: {}
+[15.088108] (-) TimerEvent: {}
+[15.188639] (-) TimerEvent: {}
+[15.289157] (-) TimerEvent: {}
+[15.389680] (-) TimerEvent: {}
+[15.490180] (-) TimerEvent: {}
+[15.590644] (-) TimerEvent: {}
+[15.691229] (-) TimerEvent: {}
+[15.791718] (-) TimerEvent: {}
+[15.892154] (-) TimerEvent: {}
+[15.992810] (-) TimerEvent: {}
+[16.093445] (-) TimerEvent: {}
+[16.193876] (-) TimerEvent: {}
+[16.294431] (-) TimerEvent: {}
+[16.395069] (-) TimerEvent: {}
+[16.495656] (-) TimerEvent: {}
+[16.596183] (-) TimerEvent: {}
+[16.696728] (-) TimerEvent: {}
+[16.797479] (-) TimerEvent: {}
+[16.898095] (-) TimerEvent: {}
+[16.998594] (-) TimerEvent: {}
+[17.099094] (-) TimerEvent: {}
+[17.199652] (-) TimerEvent: {}
+[17.300100] (-) TimerEvent: {}
+[17.400495] (-) TimerEvent: {}
+[17.500977] (-) TimerEvent: {}
+[17.601662] (-) TimerEvent: {}
+[17.702081] (-) TimerEvent: {}
+[17.802496] (-) TimerEvent: {}
+[17.902978] (-) TimerEvent: {}
+[18.003467] (-) TimerEvent: {}
+[18.104079] (-) TimerEvent: {}
+[18.204722] (-) TimerEvent: {}
+[18.305277] (-) TimerEvent: {}
+[18.405750] (-) TimerEvent: {}
+[18.506341] (-) TimerEvent: {}
+[18.606862] (-) TimerEvent: {}
+[18.707369] (-) TimerEvent: {}
+[18.807932] (-) TimerEvent: {}
+[18.908720] (-) TimerEvent: {}
+[19.009158] (-) TimerEvent: {}
+[19.109656] (-) TimerEvent: {}
+[19.210191] (-) TimerEvent: {}
+[19.310977] (-) TimerEvent: {}
+[19.411448] (-) TimerEvent: {}
+[19.512086] (-) TimerEvent: {}
+[19.612631] (-) TimerEvent: {}
+[19.713158] (-) TimerEvent: {}
+[19.813646] (-) TimerEvent: {}
+[19.914164] (-) TimerEvent: {}
+[20.014859] (-) TimerEvent: {}
+[20.115317] (-) TimerEvent: {}
+[20.215773] (-) TimerEvent: {}
+[20.316256] (-) TimerEvent: {}
+[20.416858] (-) TimerEvent: {}
+[20.517338] (-) TimerEvent: {}
+[20.617882] (-) TimerEvent: {}
+[20.718562] (-) TimerEvent: {}
+[20.819087] (-) TimerEvent: {}
+[20.919579] (-) TimerEvent: {}
+[21.020093] (-) TimerEvent: {}
+[21.120582] (-) TimerEvent: {}
+[21.221026] (-) TimerEvent: {}
+[21.321574] (-) TimerEvent: {}
+[21.422037] (-) TimerEvent: {}
+[21.522646] (-) TimerEvent: {}
+[21.623200] (-) TimerEvent: {}
+[21.723738] (-) TimerEvent: {}
+[21.824402] (-) TimerEvent: {}
+[21.924856] (-) TimerEvent: {}
+[22.025528] (-) TimerEvent: {}
+[22.126090] (-) TimerEvent: {}
+[22.226577] (-) TimerEvent: {}
+[22.327171] (-) TimerEvent: {}
+[22.427752] (-) TimerEvent: {}
+[22.528517] (-) TimerEvent: {}
+[22.629036] (-) TimerEvent: {}
+[22.729540] (-) TimerEvent: {}
+[22.830061] (-) TimerEvent: {}
+[22.931199] (-) TimerEvent: {}
+[23.031789] (-) TimerEvent: {}
+[23.132342] (-) TimerEvent: {}
+[23.232831] (-) TimerEvent: {}
+[23.266788] (track_car) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable track_car_node\x1b[0m\n'}
+[23.332993] (-) TimerEvent: {}
+[23.433576] (-) TimerEvent: {}
+[23.534495] (-) TimerEvent: {}
+[23.635641] (-) TimerEvent: {}
+[23.736270] (-) TimerEvent: {}
+[23.836866] (-) TimerEvent: {}
+[23.937669] (-) TimerEvent: {}
+[24.038395] (-) TimerEvent: {}
+[24.139066] (-) TimerEvent: {}
+[24.239758] (-) TimerEvent: {}
+[24.340557] (-) TimerEvent: {}
+[24.441316] (-) TimerEvent: {}
+[24.541892] (-) TimerEvent: {}
+[24.642695] (-) TimerEvent: {}
+[24.743339] (-) TimerEvent: {}
+[24.843904] (-) TimerEvent: {}
+[24.944533] (-) TimerEvent: {}
+[25.045410] (-) TimerEvent: {}
+[25.134934] (track_car) StdoutLine: {'line': b'[100%] Built target track_car_node\n'}
+[25.145567] (-) TimerEvent: {}
+[25.151028] (track_car) CommandEnded: {'returncode': 0}
+[25.152347] (track_car) JobProgress: {'identifier': 'track_car', 'progress': 'install'}
+[25.168125] (track_car) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/track_car'], 'cwd': '/root/ros2_ws/build/track_car', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('GIT_ASKPASS', '/root/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.99.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-1f30b1cc-88be-43d7-9111-9d6b1bfd5968.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/root/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('DEBUGINFOD_URLS', ''), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'LAPTOP-LTMO5I6H'), ('WSL_INTEROP', '/run/WSL/645_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/4949701c880d4bdb949e3c0e6b400288da7f474b/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Program Files/MATLAB/R2024b/runtime/win64:/mnt/d/Program Files/MATLAB/R2024b/bin:/mnt/d/Program Files/PowerShell/7/:/mnt/d/Program Files/MATLAB/R2022b/runtime/win64:/mnt/d/Program Files/MATLAB/R2022b/bin:/mnt/d/mingw63/bin:/mnt/c/Users/25104/AppData/Local/Microsoft/WindowsApps:/mnt/d/Users/25104/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/root/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/root/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-753f4aa56f9a8b31.txt'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-bcdd5166ca.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_ws/build/track_car'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[25.179402] (track_car) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.181151] (track_car) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[25.181712] (track_car) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/track_car/lib/track_car/track_car_node\n'}
+[25.182087] (track_car) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/track_car/lib/track_car/control_node\n'}
+[25.182407] (track_car) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/ament_index/resource_index/package_run_dependencies/track_car\n'}
+[25.182705] (track_car) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/ament_index/resource_index/parent_prefix_path/track_car\n'}
+[25.183050] (track_car) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/environment/ament_prefix_path.sh\n'}
+[25.183269] (track_car) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/environment/ament_prefix_path.dsv\n'}
+[25.183514] (track_car) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/environment/path.sh\n'}
+[25.183766] (track_car) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/environment/path.dsv\n'}
+[25.184034] (track_car) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/local_setup.bash\n'}
+[25.184274] (track_car) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/local_setup.sh\n'}
+[25.184624] (track_car) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/local_setup.zsh\n'}
+[25.185195] (track_car) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/local_setup.dsv\n'}
+[25.185721] (track_car) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/track_car/share/track_car/package.dsv\n'}
+[25.198385] (track_car) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/ament_index/resource_index/packages/track_car\n'}
+[25.198860] (track_car) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/cmake/track_carConfig.cmake\n'}
+[25.199073] (track_car) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/cmake/track_carConfig-version.cmake\n'}
+[25.199243] (track_car) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/package.xml\n'}
+[25.202093] (track_car) CommandEnded: {'returncode': 0}
+[25.246025] (-) TimerEvent: {}
+[25.251577] (track_car) JobEnded: {'identifier': 'track_car', 'rc': 0}
+[25.256430] (-) EventReactorShutdown: {}

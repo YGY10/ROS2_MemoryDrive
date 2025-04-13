@@ -1,0 +1,18 @@
+[01m[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:[m[K In member function ‘[01m[Kvoid AutoDriveControl::updateImUData(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:26:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   26 |     double [01;35m[Kcurrent_time[m[K = node_->now().seconds();
+      |            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:[m[K In member function ‘[01m[Kvoid AutoDriveControl::updateTargetPos()[m[K’:
+[01m[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:118:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdistance1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  118 |         double [01;35m[Kdistance1[m[K = std::sqrt(x1 * x1 + y1 * y1);
+      |                [01;35m[K^~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:122:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdistance2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  122 |         double [01;35m[Kdistance2[m[K = std::sqrt(x2 * x2 + y2 * y2);
+      |                [01;35m[K^~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:[m[K In member function ‘[01m[Kvoid AutoDriveControl::update(const std::vector<sensor_msgs::msg::NavSatFix_<std::allocator<void> > >&, const int&)[m[K’:
+[01m[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:159:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktrajectory[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  159 | void AutoDriveControl::update([01;35m[Kconst std::vector<sensor_msgs::msg::NavSatFix> &trajectory[m[K, const int &MemoryTrajectoryState)
+      |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:159:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KMemoryTrajectoryState[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  159 | void AutoDriveControl::update(const std::vector<sensor_msgs::msg::NavSatFix> &trajectory, [01;35m[Kconst int &MemoryTrajectoryState[m[K)
+      |                                                                                           [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K

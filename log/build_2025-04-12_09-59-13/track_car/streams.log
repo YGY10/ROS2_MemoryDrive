@@ -1,0 +1,57 @@
+[0.060s] Invoking command in '/root/ros2_ws/build/track_car': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/track_car -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/track_car
+[0.406s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.838s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.171s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[2.655s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.712s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.777s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.873s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.971s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.383s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.410s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.994s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.221s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[9.298s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[9.370s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[9.434s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.715s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.715s] -- Configured cppcheck include dirs: 
+[9.716s] -- Configured cppcheck exclude dirs and/or files: 
+[9.717s] -- Added test 'lint_cmake' to check CMake code style
+[9.720s] -- Added test 'uncrustify' to check C / C++ code style
+[9.720s] -- Configured uncrustify additional arguments: 
+[9.721s] -- Added test 'xmllint' to check XML markup files
+[9.732s] -- Configuring done
+[9.833s] -- Generating done
+[9.838s] -- Build files have been written to: /root/ros2_ws/build/track_car
+[9.867s] Invoked command in '/root/ros2_ws/build/track_car' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/track_car -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/track_car
+[9.868s] Invoking command in '/root/ros2_ws/build/track_car': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/track_car -- -j8 -l8
+[9.916s] [35m[1mConsolidate compiler generated dependencies of target track_car_node[0m
+[9.916s] [35m[1mConsolidate compiler generated dependencies of target control_node[0m
+[9.949s] [ 25%] [32mBuilding CXX object CMakeFiles/track_car_node.dir/src/track_car_node.cpp.o[0m
+[9.955s] [ 50%] [32m[1mLinking CXX executable control_node[0m
+[10.937s] [ 75%] Built target control_node
+[26.101s] [100%] [32m[1mLinking CXX executable track_car_node[0m
+[27.254s] [100%] Built target track_car_node
+[27.494s] Invoked command in '/root/ros2_ws/build/track_car' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/track_car -- -j8 -l8
+[27.504s] Invoking command in '/root/ros2_ws/build/track_car': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/track_car
+[27.513s] -- Install configuration: ""
+[27.514s] -- Execute custom install script
+[27.514s] -- Symlinking: /root/ros2_ws/install/track_car/lib/track_car/track_car_node
+[27.523s] -- Symlinking: /root/ros2_ws/install/track_car/lib/track_car/control_node
+[27.532s] -- Symlinking: /root/ros2_ws/install/track_car/share/ament_index/resource_index/package_run_dependencies/track_car
+[27.541s] -- Symlinking: /root/ros2_ws/install/track_car/share/ament_index/resource_index/parent_prefix_path/track_car
+[27.562s] -- Symlinking: /root/ros2_ws/install/track_car/share/track_car/environment/ament_prefix_path.sh
+[27.598s] -- Symlinking: /root/ros2_ws/install/track_car/share/track_car/environment/ament_prefix_path.dsv
+[27.627s] -- Symlinking: /root/ros2_ws/install/track_car/share/track_car/environment/path.sh
+[27.651s] -- Symlinking: /root/ros2_ws/install/track_car/share/track_car/environment/path.dsv
+[27.668s] -- Symlinking: /root/ros2_ws/install/track_car/share/track_car/local_setup.bash
+[27.682s] -- Symlinking: /root/ros2_ws/install/track_car/share/track_car/local_setup.sh
+[27.694s] -- Symlinking: /root/ros2_ws/install/track_car/share/track_car/local_setup.zsh
+[27.704s] -- Symlinking: /root/ros2_ws/install/track_car/share/track_car/local_setup.dsv
+[27.715s] -- Symlinking: /root/ros2_ws/install/track_car/share/track_car/package.dsv
+[27.726s] -- Symlinking: /root/ros2_ws/install/track_car/share/ament_index/resource_index/packages/track_car
+[27.736s] -- Symlinking: /root/ros2_ws/install/track_car/share/track_car/cmake/track_carConfig.cmake
+[27.746s] -- Symlinking: /root/ros2_ws/install/track_car/share/track_car/cmake/track_carConfig-version.cmake
+[27.757s] -- Symlinking: /root/ros2_ws/install/track_car/share/track_car/package.xml
+[27.770s] Invoked command in '/root/ros2_ws/build/track_car' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/track_car

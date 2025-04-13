@@ -1,0 +1,20 @@
+[0.060s] Invoking command in '/root/ros2_ws/build/track_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/track_car -- -j8 -l8
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target memory_drive_node[0m
+[0.099s] [35m[1mConsolidate compiler generated dependencies of target track_car_node[0m
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target control_node[0m
+[0.123s] [ 25%] [32mBuilding CXX object CMakeFiles/memory_drive_node.dir/src/MemoryTrajectoryGenerate.cpp.o[0m
+[0.123s] [ 37%] Built target track_car_node
+[0.124s] [ 50%] [32mBuilding CXX object CMakeFiles/memory_drive_node.dir/src/AutoDriveControl.cpp.o[0m
+[0.129s] [ 75%] Built target control_node
+[2.908s] [01m[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:[m[K In member function ‘[01m[Kvoid AutoDriveControl::update(std::vector<sensor_msgs::msg::NavSatFix_<std::allocator<void> > >)[m[K’:
+[2.908s] [01m[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:25:30:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K< 0[m[K’ is always false [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[2.909s]    25 |         if([01;35m[Ktrajectory.size() < 0[m[K)
+[2.909s]       |            [01;35m[K~~~~~~~~~~~~~~~~~~^~~[m[K
+[11.519s] [ 87%] [32m[1mLinking CXX executable memory_drive_node[0m
+[12.023s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[12.023s] (.text+0x1b): undefined reference to `main'
+[12.203s] collect2: error: ld returned 1 exit status
+[12.208s] gmake[2]: *** [CMakeFiles/memory_drive_node.dir/build.make:208: memory_drive_node] Error 1
+[12.208s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/memory_drive_node.dir/all] Error 2
+[12.209s] gmake: *** [Makefile:146: all] Error 2
+[12.213s] Invoked command in '/root/ros2_ws/build/track_car' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/track_car -- -j8 -l8

@@ -1,0 +1,34 @@
+[0.052s] Invoking command in '/root/ros2_ws/build/track_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/track_car -- -j8 -l8
+[0.128s] [35m[1mConsolidate compiler generated dependencies of target alg_main[0m
+[0.193s] [ 22%] Built target control_node
+[0.194s] [ 44%] Built target track_car_node
+[0.292s] [ 55%] [32mBuilding CXX object CMakeFiles/alg_main.dir/src/MemoryTrajectoryGenerate.cpp.o[0m
+[4.724s] [01m[K/root/ros2_ws/src/track_car/src/MemoryTrajectoryGenerate.cpp:[m[K In member function ‘[01m[Kvoid MemoryTrajectoryGenerate::process_imu()[m[K’:
+[4.724s] [01m[K/root/ros2_ws/src/track_car/src/MemoryTrajectoryGenerate.cpp:92:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kacceleration_y_car[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.724s]    92 |     double [01;35m[Kacceleration_y_car[m[K = -acceleration_x_world * sin(yaw) + acceleration_y_world * cos(yaw); // 车体y方向
+[4.724s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[20.376s] [ 66%] [32m[1mLinking CXX executable alg_main[0m
+[22.030s] [100%] Built target alg_main
+[22.058s] Invoked command in '/root/ros2_ws/build/track_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/track_car -- -j8 -l8
+[22.082s] Invoking command in '/root/ros2_ws/build/track_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/track_car
+[22.097s] -- Install configuration: ""
+[22.098s] -- Execute custom install script
+[22.099s] -- Up-to-date symlink: /root/ros2_ws/install/track_car/lib/track_car/track_car_node
+[22.099s] -- Up-to-date symlink: /root/ros2_ws/install/track_car/lib/track_car/control_node
+[22.100s] -- Up-to-date symlink: /root/ros2_ws/install/track_car/lib/track_car/alg_main
+[22.100s] -- Up-to-date symlink: /root/ros2_ws/install/track_car/share/ament_index/resource_index/package_run_dependencies/track_car
+[22.101s] -- Up-to-date symlink: /root/ros2_ws/install/track_car/share/ament_index/resource_index/parent_prefix_path/track_car
+[22.102s] -- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/environment/ament_prefix_path.sh
+[22.103s] -- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/environment/ament_prefix_path.dsv
+[22.103s] -- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/environment/path.sh
+[22.103s] -- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/environment/path.dsv
+[22.104s] -- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/local_setup.bash
+[22.104s] -- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/local_setup.sh
+[22.105s] -- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/local_setup.zsh
+[22.105s] -- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/local_setup.dsv
+[22.106s] -- Symlinking: /root/ros2_ws/install/track_car/share/track_car/package.dsv
+[22.124s] -- Up-to-date symlink: /root/ros2_ws/install/track_car/share/ament_index/resource_index/packages/track_car
+[22.125s] -- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/cmake/track_carConfig.cmake
+[22.125s] -- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/cmake/track_carConfig-version.cmake
+[22.126s] -- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/package.xml
+[22.129s] Invoked command in '/root/ros2_ws/build/track_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/track_car

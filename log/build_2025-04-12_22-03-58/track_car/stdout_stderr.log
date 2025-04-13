@@ -1,0 +1,25 @@
+[ 22%] Built target track_car_node
+[ 33%] [32mBuilding CXX object CMakeFiles/alg_main.dir/src/MemoryTrajectoryGenerate.cpp.o[0m
+[ 55%] Built target control_node
+[ 66%] [32m[1mLinking CXX executable alg_main[0m
+[100%] Built target alg_main
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /root/ros2_ws/install/track_car/lib/track_car/track_car_node
+-- Up-to-date symlink: /root/ros2_ws/install/track_car/lib/track_car/control_node
+-- Up-to-date symlink: /root/ros2_ws/install/track_car/lib/track_car/alg_main
+-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/ament_index/resource_index/package_run_dependencies/track_car
+-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/ament_index/resource_index/parent_prefix_path/track_car
+-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/environment/path.sh
+-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/environment/path.dsv
+-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/local_setup.bash
+-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/local_setup.sh
+-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/local_setup.zsh
+-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/local_setup.dsv
+-- Symlinking: /root/ros2_ws/install/track_car/share/track_car/package.dsv
+-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/ament_index/resource_index/packages/track_car
+-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/cmake/track_carConfig.cmake
+-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/cmake/track_carConfig-version.cmake
+-- Up-to-date symlink: /root/ros2_ws/install/track_car/share/track_car/package.xml

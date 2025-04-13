@@ -1,0 +1,12 @@
+[0.021s] Invoking command in '/root/ros2_ws/build/track_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/track_car -- -j8 -l8
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target control_node[0m
+[0.113s] [ 50%] Built target track_car_node
+[0.120s] [ 75%] [32mBuilding CXX object CMakeFiles/control_node.dir/src/control_node.cpp.o[0m
+[4.295s] [01m[K/root/ros2_ws/src/track_car/src/control_node.cpp:[m[K In constructor ‘[01m[KGazeboControlNode::GazeboControlNode()[m[K’:
+[4.296s] [01m[K/root/ros2_ws/src/track_car/src/control_node.cpp:13:13:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[4.296s]    13 |             [01;31m[K500ms[m[K, std::bind(&GazeboControlNode::send_velocity, this));
+[4.296s]       |             [01;31m[K^~~~~[m[K
+[5.703s] gmake[2]: *** [CMakeFiles/control_node.dir/build.make:76: CMakeFiles/control_node.dir/src/control_node.cpp.o] Error 1
+[5.703s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/control_node.dir/all] Error 2
+[5.704s] gmake: *** [Makefile:146: all] Error 2
+[5.708s] Invoked command in '/root/ros2_ws/build/track_car' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/track_car -- -j8 -l8

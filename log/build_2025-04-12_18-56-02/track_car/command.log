@@ -1,0 +1,2 @@
+Invoking command in '/root/ros2_ws/build/track_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/track_car -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/track_car
+Invoked command in '/root/ros2_ws/build/track_car' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/track_car -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/track_car

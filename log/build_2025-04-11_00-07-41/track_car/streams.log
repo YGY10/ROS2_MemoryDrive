@@ -1,0 +1,27 @@
+[0.016s] Invoking command in '/root/ros2_ws/build/track_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/track_car -- -j8 -l8
+[0.082s] [ 50%] Built target track_car_node
+[0.086s] [ 75%] [32mBuilding CXX object CMakeFiles/control_node.dir/src/control_node.cpp.o[0m
+[5.601s] [100%] [32m[1mLinking CXX executable control_node[0m
+[5.885s] [100%] Built target control_node
+[5.900s] Invoked command in '/root/ros2_ws/build/track_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/track_car -- -j8 -l8
+[5.914s] Invoking command in '/root/ros2_ws/build/track_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/track_car
+[5.921s] -- Install configuration: ""
+[5.921s] -- Up-to-date: /root/ros2_ws/install/track_car/lib/track_car/track_car_node
+[5.922s] -- Installing: /root/ros2_ws/install/track_car/lib/track_car/control_node
+[5.924s] -- Set runtime path of "/root/ros2_ws/install/track_car/lib/track_car/control_node" to ""
+[5.925s] -- Up-to-date: /root/ros2_ws/install/track_car/share/ament_index/resource_index/package_run_dependencies/track_car
+[5.925s] -- Up-to-date: /root/ros2_ws/install/track_car/share/ament_index/resource_index/parent_prefix_path/track_car
+[5.925s] -- Up-to-date: /root/ros2_ws/install/track_car/share/track_car/environment/ament_prefix_path.sh
+[5.926s] -- Up-to-date: /root/ros2_ws/install/track_car/share/track_car/environment/ament_prefix_path.dsv
+[5.926s] -- Up-to-date: /root/ros2_ws/install/track_car/share/track_car/environment/path.sh
+[5.926s] -- Up-to-date: /root/ros2_ws/install/track_car/share/track_car/environment/path.dsv
+[5.926s] -- Up-to-date: /root/ros2_ws/install/track_car/share/track_car/local_setup.bash
+[5.926s] -- Up-to-date: /root/ros2_ws/install/track_car/share/track_car/local_setup.sh
+[5.926s] -- Up-to-date: /root/ros2_ws/install/track_car/share/track_car/local_setup.zsh
+[5.926s] -- Up-to-date: /root/ros2_ws/install/track_car/share/track_car/local_setup.dsv
+[5.926s] -- Installing: /root/ros2_ws/install/track_car/share/track_car/package.dsv
+[5.926s] -- Up-to-date: /root/ros2_ws/install/track_car/share/ament_index/resource_index/packages/track_car
+[5.926s] -- Up-to-date: /root/ros2_ws/install/track_car/share/track_car/cmake/track_carConfig.cmake
+[5.927s] -- Up-to-date: /root/ros2_ws/install/track_car/share/track_car/cmake/track_carConfig-version.cmake
+[5.927s] -- Up-to-date: /root/ros2_ws/install/track_car/share/track_car/package.xml
+[5.928s] Invoked command in '/root/ros2_ws/build/track_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/track_car

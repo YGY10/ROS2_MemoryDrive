@@ -1,0 +1,64 @@
+[0.073s] Invoking command in '/root/ros2_ws/build/track_car': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/track_car -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/track_car
+[0.360s] -- The C compiler identification is GNU 11.4.0
+[1.007s] -- The CXX compiler identification is GNU 11.4.0
+[1.444s] -- Detecting C compiler ABI info
+[1.745s] -- Detecting C compiler ABI info - done
+[1.760s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.761s] -- Detecting C compile features
+[1.762s] -- Detecting C compile features - done
+[1.766s] -- Detecting CXX compiler ABI info
+[2.002s] -- Detecting CXX compiler ABI info - done
+[2.028s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.028s] -- Detecting CXX compile features
+[2.031s] -- Detecting CXX compile features - done
+[2.038s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.432s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.751s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[3.071s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.084s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.108s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.140s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.202s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.358s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.363s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.073s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.611s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.266s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.287s] -- Looking for pthread.h
+[9.467s] -- Looking for pthread.h - found
+[9.468s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.710s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.713s] -- Found Threads: TRUE  
+[9.847s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[9.882s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[9.933s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[9.978s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[10.221s] -- Configuring done
+[10.299s] -- Generating done
+[10.324s] -- Build files have been written to: /root/ros2_ws/build/track_car
+[10.352s] Invoked command in '/root/ros2_ws/build/track_car' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/track_car -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/track_car
+[10.358s] Invoking command in '/root/ros2_ws/build/track_car': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/track_car -- -j8 -l8
+[10.470s] [35m[1mConsolidate compiler generated dependencies of target control_node[0m
+[10.480s] [35m[1mConsolidate compiler generated dependencies of target alg_main[0m
+[10.489s] [35m[1mConsolidate compiler generated dependencies of target track_car_node[0m
+[10.537s] [ 22%] Built target control_node
+[10.558s] [ 44%] Built target track_car_node
+[10.598s] [ 55%] [32mBuilding CXX object CMakeFiles/alg_main.dir/src/AutoDriveControl.cpp.o[0m
+[18.125s] [01m[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:[m[K In member function ‘[01m[Kvoid AutoDriveControl::updateImUData(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[18.126s] [01m[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:48:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[18.126s]    48 |     double [01;35m[Kcurrent_time[m[K = node_->now().seconds();
+[18.126s]       |            [01;35m[K^~~~~~~~~~~~[m[K
+[18.132s] [01m[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:[m[K In member function ‘[01m[Kvoid AutoDriveControl::updateTargetPos()[m[K’:
+[18.132s] [01m[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:143:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdistance1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[18.133s]   143 |         double [01;35m[Kdistance1[m[K = std::sqrt(x1 * x1 + y1 * y1);
+[18.133s]       |                [01;35m[K^~~~~~~~~[m[K
+[18.133s] [01m[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:147:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdistance2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[18.133s]   147 |         double [01;35m[Kdistance2[m[K = std::sqrt(x2 * x2 + y2 * y2);
+[18.133s]       |                [01;35m[K^~~~~~~~~[m[K
+[40.400s] [ 66%] [32m[1mLinking CXX executable alg_main[0m
+[43.029s] [100%] Built target alg_main
+[43.052s] Invoked command in '/root/ros2_ws/build/track_car' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/track_car -- -j8 -l8
+[43.068s] Invoking command in '/root/ros2_ws/build/track_car': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/track_car
+[43.079s] -- Install configuration: ""
+[43.080s] -- Installing: /root/ros2_ws/install/track_car/share/track_car/package.dsv
+[43.085s] Invoked command in '/root/ros2_ws/build/track_car' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/track_car

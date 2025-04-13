@@ -1,0 +1,1 @@
+/root/ros2_ws/build/track_car/ament_cmake_environment_hooks/local_setup.bash

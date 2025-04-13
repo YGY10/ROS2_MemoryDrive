@@ -1,0 +1,40 @@
+[0.063s] Invoking command in '/root/ros2_ws/build/track_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/track_car -- -j8 -l8
+[0.282s] [ 22%] Built target track_car_node
+[0.284s] [ 44%] Built target control_node
+[0.305s] [35m[1mConsolidate compiler generated dependencies of target alg_main[0m
+[0.362s] [ 66%] [32mBuilding CXX object CMakeFiles/alg_main.dir/src/alg_main.cpp.o[0m
+[0.362s] [ 66%] [32mBuilding CXX object CMakeFiles/alg_main.dir/src/MemoryDrive.cpp.o[0m
+[0.363s] [ 77%] [32mBuilding CXX object CMakeFiles/alg_main.dir/src/AutoDriveControl.cpp.o[0m
+[3.458s] [01m[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:[m[K In member function ‘[01m[Kvoid AutoDriveControl::updateImUData(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.458s] [01m[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:26:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.458s]    26 |     double [01;35m[Kcurrent_time[m[K = node_->now().seconds();
+[3.458s]       |            [01;35m[K^~~~~~~~~~~~[m[K
+[3.459s] [01m[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:[m[K In member function ‘[01m[Kvoid AutoDriveControl::updateTargetPos()[m[K’:
+[3.459s] [01m[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:118:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdistance1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.459s]   118 |         double [01;35m[Kdistance1[m[K = std::sqrt(x1 * x1 + y1 * y1);
+[3.459s]       |                [01;35m[K^~~~~~~~~[m[K
+[3.460s] [01m[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:122:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdistance2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.460s]   122 |         double [01;35m[Kdistance2[m[K = std::sqrt(x2 * x2 + y2 * y2);
+[3.460s]       |                [01;35m[K^~~~~~~~~[m[K
+[6.333s] [01m[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:[m[K In member function ‘[01m[Kvoid AutoDriveControl::update(const std::vector<sensor_msgs::msg::NavSatFix_<std::allocator<void> > >&, const int&)[m[K’:
+[6.333s] [01m[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:219:9:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wimplicit-fallthrough=-Wimplicit-fallthrough=]8;;[m[K]
+[6.333s]   219 |         [01;35m[K}[m[K
+[6.333s]       |         [01;35m[K^[m[K
+[6.333s] [01m[K/root/ros2_ws/src/track_car/src/AutoDriveControl.cpp:220:5:[m[K [01;36m[Knote: [m[Khere
+[6.333s]   220 |     [01;36m[Kcase[m[K 3:
+[6.333s]       |     [01;36m[K^~~~[m[K
+[12.244s] [ 88%] [32m[1mLinking CXX executable alg_main[0m
+[14.219s] /usr/bin/ld: CMakeFiles/alg_main.dir/src/AutoDriveControl.cpp.o: in function `AutoDriveControl::updateTargetPos()':
+[14.219s] AutoDriveControl.cpp:(.text+0xfbf): undefined reference to `GeographicLib::Geocentric::WGS84()'
+[14.220s] /usr/bin/ld: AutoDriveControl.cpp:(.text+0x100d): undefined reference to `GeographicLib::LocalCartesian::Reset(double, double, double)'
+[14.221s] /usr/bin/ld: CMakeFiles/alg_main.dir/src/AutoDriveControl.cpp.o: in function `AutoDriveControl::listen_for_keypress()':
+[14.221s] AutoDriveControl.cpp:(.text+0x2e34): undefined reference to `AutoDriveControl::get_keypress()'
+[14.221s] /usr/bin/ld: CMakeFiles/alg_main.dir/src/AutoDriveControl.cpp.o: in function `GeographicLib::LocalCartesian::LocalCartesian(GeographicLib::Geocentric const&)':
+[14.222s] AutoDriveControl.cpp:(.text._ZN13GeographicLib14LocalCartesianC2ERKNS_10GeocentricE[_ZN13GeographicLib14LocalCartesianC5ERKNS_10GeocentricE]+0x6f): undefined reference to `GeographicLib::LocalCartesian::Reset(double, double, double)'
+[14.222s] /usr/bin/ld: CMakeFiles/alg_main.dir/src/AutoDriveControl.cpp.o: in function `GeographicLib::LocalCartesian::Forward(double, double, double, double&, double&, double&) const':
+[14.222s] AutoDriveControl.cpp:(.text._ZNK13GeographicLib14LocalCartesian7ForwardEdddRdS1_S1_[_ZNK13GeographicLib14LocalCartesian7ForwardEdddRdS1_S1_]+0x60): undefined reference to `GeographicLib::LocalCartesian::IntForward(double, double, double, double&, double&, double&, double*) const'
+[14.254s] collect2: error: ld returned 1 exit status
+[14.255s] gmake[2]: *** [CMakeFiles/alg_main.dir/build.make:232: alg_main] Error 1
+[14.256s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/alg_main.dir/all] Error 2
+[14.256s] gmake: *** [Makefile:146: all] Error 2
+[14.258s] Invoked command in '/root/ros2_ws/build/track_car' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/track_car -- -j8 -l8
