@@ -10,6 +10,7 @@
 #include <atomic>
 #include <termios.h>
 #include <fstream>
+#include <cmath>
 
 class AutoDriveControl
 {
@@ -18,7 +19,10 @@ public:
     ~AutoDriveControl();
 
     void setMemoryTrajectory(const std::vector<sensor_msgs::msg::NavSatFix> &trajectory);
+	void smoothMemoryTrajectory(const int &window_size);
+	void resampleMemoryTrajectoryBySpacing(double spacing);
     void setAutoDriveFlag(bool flag);
+	void writeSmoothedTrajectoryToFile();
 
     void update(const std::vector<sensor_msgs::msg::NavSatFix> &trajectory, const int &MemoryTrajectoryState); // 主逻辑入口，每个周期调用一次
     int getState() const { return state_; }
@@ -59,6 +63,7 @@ private:
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr cmd_vel_pub_;
     std::thread keyboard_thread_;
     std::ofstream drive_log_file_; // 文件输出流
+	std::ofstream trajectory_log_file_; // 轨迹文件输出流
     rclcpp::Time log_start_time_;  // 记录起始时间
 
     // 条件判定

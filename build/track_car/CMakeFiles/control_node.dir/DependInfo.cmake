@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/root/ros2_ws/src/track_car/src/control_node.cpp" "CMakeFiles/control_node.dir/src/control_node.cpp.o" "gcc" "CMakeFiles/control_node.dir/src/control_node.cpp.o.d"
+  "/home/ygy/ROS2_MemoryDrive/src/track_car/src/control_node.cpp" "CMakeFiles/control_node.dir/src/control_node.cpp.o" "gcc" "CMakeFiles/control_node.dir/src/control_node.cpp.o.d"
   )
 
 # Targets to which this target links.

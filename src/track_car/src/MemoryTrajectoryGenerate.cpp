@@ -33,11 +33,6 @@ MemoryTrajectoryGenerate::MemoryTrajectoryGenerate(rclcpp::Node* node)
 
     trajectory_pub_ = node_->create_publisher<sensor_msgs::msg::NavSatFix>("/track/trajectory", 10);
 
-    gps_file_.open("gps_data.txt", std::ios::out | std::ios::trunc);
-    if (!gps_file_.is_open()) {
-        RCLCPP_ERROR(node_->get_logger(), "❌ Failed to open gps_data.txt");
-    }
-
     start_keyboard_listener();
 }
 
@@ -155,6 +150,7 @@ void MemoryTrajectoryGenerate::listen_for_keypress()
             is_recording_ = !is_recording_;
             if (is_recording_) {
                 state_ = 1;
+				gps_file_.open("gps_data.txt", std::ios::out | std::ios::trunc);
                 RCLCPP_INFO(node_->get_logger(), "✅ Start Recording MemoryTrajectory.");
             } else {
                 state_ = 2;

@@ -1,8 +1,8 @@
-# Install script for directory: /root/ros2_ws/src/track_car
+# Install script for directory: /home/ygy/ROS2_MemoryDrive/src/track_car
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/root/ros2_ws/install/track_car")
+  set(CMAKE_INSTALL_PREFIX "/home/ygy/ROS2_MemoryDrive/install/track_car")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/track_car/track_car_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/track_car" TYPE EXECUTABLE FILES "/root/ros2_ws/build/track_car/track_car_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/track_car" TYPE EXECUTABLE FILES "/home/ygy/ROS2_MemoryDrive/build/track_car/track_car_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/track_car/track_car_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/track_car/track_car_node")
     file(RPATH_CHANGE
@@ -69,7 +69,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/track_car/control_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/track_car" TYPE EXECUTABLE FILES "/root/ros2_ws/build/track_car/control_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/track_car" TYPE EXECUTABLE FILES "/home/ygy/ROS2_MemoryDrive/build/track_car/control_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/track_car/control_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/track_car/control_node")
     file(RPATH_CHANGE
@@ -89,7 +89,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/track_car/alg_main"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/track_car" TYPE EXECUTABLE FILES "/root/ros2_ws/build/track_car/alg_main")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/track_car" TYPE EXECUTABLE FILES "/home/ygy/ROS2_MemoryDrive/build/track_car/alg_main")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/track_car/alg_main" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/track_car/alg_main")
     file(RPATH_CHANGE
@@ -103,11 +103,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/root/ros2_ws/build/track_car/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/track_car")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ygy/ROS2_MemoryDrive/build/track_car/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/track_car")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/root/ros2_ws/build/track_car/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/track_car")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ygy/ROS2_MemoryDrive/build/track_car/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/track_car")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -115,7 +115,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/track_car/environment" TYPE FILE FILES "/root/ros2_ws/build/track_car/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/track_car/environment" TYPE FILE FILES "/home/ygy/ROS2_MemoryDrive/build/track_car/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -123,42 +123,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/track_car/environment" TYPE FILE FILES "/root/ros2_ws/build/track_car/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/track_car/environment" TYPE FILE FILES "/home/ygy/ROS2_MemoryDrive/build/track_car/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/track_car" TYPE FILE FILES "/root/ros2_ws/build/track_car/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/track_car" TYPE FILE FILES "/home/ygy/ROS2_MemoryDrive/build/track_car/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/track_car" TYPE FILE FILES "/root/ros2_ws/build/track_car/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/track_car" TYPE FILE FILES "/home/ygy/ROS2_MemoryDrive/build/track_car/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/track_car" TYPE FILE FILES "/root/ros2_ws/build/track_car/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/track_car" TYPE FILE FILES "/home/ygy/ROS2_MemoryDrive/build/track_car/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/track_car" TYPE FILE FILES "/root/ros2_ws/build/track_car/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/track_car" TYPE FILE FILES "/home/ygy/ROS2_MemoryDrive/build/track_car/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/track_car" TYPE FILE FILES "/root/ros2_ws/build/track_car/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/track_car" TYPE FILE FILES "/home/ygy/ROS2_MemoryDrive/build/track_car/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/root/ros2_ws/build/track_car/ament_cmake_index/share/ament_index/resource_index/packages/track_car")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ygy/ROS2_MemoryDrive/build/track_car/ament_cmake_index/share/ament_index/resource_index/packages/track_car")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/track_car/cmake" TYPE FILE FILES
-    "/root/ros2_ws/build/track_car/ament_cmake_core/track_carConfig.cmake"
-    "/root/ros2_ws/build/track_car/ament_cmake_core/track_carConfig-version.cmake"
+    "/home/ygy/ROS2_MemoryDrive/build/track_car/ament_cmake_core/track_carConfig.cmake"
+    "/home/ygy/ROS2_MemoryDrive/build/track_car/ament_cmake_core/track_carConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/track_car" TYPE FILE FILES "/root/ros2_ws/src/track_car/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/track_car" TYPE FILE FILES "/home/ygy/ROS2_MemoryDrive/src/track_car/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -169,5 +169,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/root/ros2_ws/build/track_car/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ygy/ROS2_MemoryDrive/build/track_car/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,7 +1,7 @@
 CMakeFiles/alg_main.dir/src/AutoDriveControl.cpp.o: \
- /root/ros2_ws/src/track_car/src/AutoDriveControl.cpp \
+ /home/ygy/ROS2_MemoryDrive/src/track_car/src/AutoDriveControl.cpp \
  /usr/include/stdc-predef.h \
- /root/ros2_ws/src/track_car/include/track_car/AutoDriveControl.hpp \
+ /home/ygy/ROS2_MemoryDrive/src/track_car/include/track_car/AutoDriveControl.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

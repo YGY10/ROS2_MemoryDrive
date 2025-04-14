@@ -1,4 +1,0 @@
-Invoking command in '/root/ros2_ws/build/track_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/track_car -- -j8 -l8
-Invoked command in '/root/ros2_ws/build/track_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/track_car -- -j8 -l8
-Invoking command in '/root/ros2_ws/build/track_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/track_car
-Invoked command in '/root/ros2_ws/build/track_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/track_car

@@ -1,7 +1,0 @@
-[ 22%] Built target track_car_node
-[ 44%] Built target control_node
-[35m[1mConsolidate compiler generated dependencies of target alg_main[0m
-[ 66%] [32mBuilding CXX object CMakeFiles/alg_main.dir/src/alg_main.cpp.o[0m
-[ 66%] [32mBuilding CXX object CMakeFiles/alg_main.dir/src/MemoryDrive.cpp.o[0m
-[ 77%] [32mBuilding CXX object CMakeFiles/alg_main.dir/src/AutoDriveControl.cpp.o[0m
-[ 88%] [32m[1mLinking CXX executable alg_main[0m

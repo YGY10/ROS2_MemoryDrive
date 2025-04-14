@@ -1,7 +1,7 @@
 CMakeFiles/alg_main.dir/src/MemoryTrajectoryGenerate.cpp.o: \
- /root/ros2_ws/src/track_car/src/MemoryTrajectoryGenerate.cpp \
+ /home/ygy/ROS2_MemoryDrive/src/track_car/src/MemoryTrajectoryGenerate.cpp \
  /usr/include/stdc-predef.h \
- /root/ros2_ws/src/track_car/include/track_car/MemoryTrajectoryGenerate.hpp \
+ /home/ygy/ROS2_MemoryDrive/src/track_car/include/track_car/MemoryTrajectoryGenerate.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

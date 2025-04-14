@@ -1,5 +1,5 @@
 CMakeFiles/control_node.dir/src/control_node.cpp.o: \
- /root/ros2_ws/src/track_car/src/control_node.cpp \
+ /home/ygy/ROS2_MemoryDrive/src/track_car/src/control_node.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
