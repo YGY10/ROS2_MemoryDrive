@@ -35,7 +35,7 @@ smoothed_lat, smoothed_lon = load_latlon_from_file(smoothed_file, sample_step=1)
 plt.figure(figsize=(10, 6))
 
 # 绘制原始轨迹
-# plt.plot(expected_lon, expected_lat, 'b--o', label="Expected Trajectory", markersize=3)
+plt.plot(expected_lon, expected_lat, 'b--o', label="Expected Trajectory", markersize=3)
 
 # 绘制实际轨迹
 plt.plot(actual_lon, actual_lat, 'r-x', label="Actual Trajectory", markersize=3)

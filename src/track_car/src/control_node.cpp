@@ -33,29 +33,30 @@ public:
 private:
     void send_velocity()
     {
-        char key = get_keypress();  // Get keypress from the user
+        //char key = get_keypress();  // Get keypress from the user
 
         geometry_msgs::msg::Twist msg;
 
         // Key mappings
-        if (key == 65) {  // Arrow Up (Increase speed)
-            linear_speed_ += 0.5;
-        }
-        else if (key == 66) {  // Arrow Down (Decrease speed)
-            linear_speed_ -= 0.5;
-        }
-        else if (key == 67) {  // Arrow Right (Turn right)
-            angular_speed_ -= 0.1;
-        }
-        else if (key == 68) {  // Arrow Left (Turn left)
-            angular_speed_ += 0.1;
-        }
-
+        // if (key == 65) {  // Arrow Up (Increase speed)
+        //     linear_speed_ += 0.5;
+        // }
+        // else if (key == 66) {  // Arrow Down (Decrease speed)
+        //     linear_speed_ -= 0.5;
+        // }
+        // else if (key == 67) {  // Arrow Right (Turn right)
+        //     angular_speed_ -= 0.1;
+        // }
+        // else if (key == 68) {  // Arrow Left (Turn left)
+        //     angular_speed_ += 0.1;
+        // }
+        linear_speed_ += 0.01;
         // Set the values for speed and steering
         msg.linear.x = linear_speed_;
         msg.angular.z = angular_speed_;
 
         cmd_vel_pub_->publish(msg);
+
         RCLCPP_INFO(this->get_logger(), "Published velocity: linear.x=%.2f, angular.z=%.2f", msg.linear.x, msg.angular.z);
     }
 

@@ -143,10 +143,10 @@ void AutoDriveControl::updateTargetPos()
 		geo_converter_.Forward(p_next.latitude, p_next.longitude, p_next.altitude, x_next_ENU, y_next_ENU, z_next_ENU);
 		RCLCPP_INFO(node_->get_logger(), "Nearest point ENU: (%.2f, %.2f), Next point ENU: (%.2f, %.2f)", x_nearest_ENU, y_nearest_ENU, x_next_ENU, y_next_ENU);
 		// 转换到自车坐标系下
-		double x_nearest = (x_nearest_ENU * cos(-current_heading_) - y_nearest_ENU * sin(-current_heading_));
-		double y_nearest = (-x_nearest_ENU * sin(-current_heading_) + y_nearest_ENU * cos(-current_heading_));
-		double x_next = (x_next_ENU * cos(-current_heading_) - y_next_ENU * sin(-current_heading_));
-		double y_next = (-x_next_ENU * sin(-current_heading_) + y_next_ENU * cos(-current_heading_));
+		double x_nearest = (-x_nearest_ENU * cos(current_heading_) + y_nearest_ENU * sin(current_heading_));
+		double y_nearest = (-x_nearest_ENU * sin(current_heading_) - y_nearest_ENU * cos(current_heading_));
+		double x_next = (-x_next_ENU * cos(current_heading_) + y_next_ENU * sin(current_heading_));
+		double y_next = (-x_next_ENU * sin(-current_heading_) - y_next_ENU * cos(current_heading_));
 		RCLCPP_INFO(node_->get_logger(), "Nearest point: (%.2f, %.2f), Next point: (%.2f, %.2f)", x_nearest, y_nearest, x_next, y_next);
 		// 最近点和前一个点的方向向量
 		double x1 = x_next - x_nearest;
@@ -170,7 +170,7 @@ void AutoDriveControl::updateTargetPos()
 		target_x_ = x_next;
 		target_y_ = y_next;
 		// 计算预瞄点的速度
-		target_speed_mps_ = 2; // 先给0.5，先测试横向
+		target_speed_mps_ = 5.5; // 先给0.5，先测试横向
 		// 计算预瞄点的航向角
 		target_yaw_ = atan2(y_next - y_nearest, x_next - x_nearest);
 	}

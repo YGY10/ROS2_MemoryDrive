@@ -6,3 +6,6 @@ build/
 
 # 忽略 .log 文件夹
 log/
+
+# 忽略install文件夹
+install/
